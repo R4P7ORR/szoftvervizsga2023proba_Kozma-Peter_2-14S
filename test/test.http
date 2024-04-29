@@ -1,0 +1,17 @@
+GET http://localhost:3000/api/cars
+
+###
+
+POST http://localhost:3000/api/cars
+Content-Type: application/json
+
+{
+  "license_plate_number": "KEX-331",
+  "brand": "Opel",
+  "model": "Astra",
+  "daily_cost": 16000
+}
+
+###
+
+GET http://localhost:3000/api/cars/1/rent
